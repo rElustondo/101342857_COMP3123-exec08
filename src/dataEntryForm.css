@@ -1,0 +1,25 @@
+.formRow{
+    display: flex;
+    flex-direction: row;
+}
+.formCell{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.dataTable, th, td {
+    border: 1px solid greenyellow;
+    border-collapse: collapse;
+  }
+th, td {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}  
+.dataTable{
+    text-align: right;
+    width: 100%;
+}
+.dataTable .value{
+    text-align: left;
+}
