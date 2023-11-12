@@ -94,7 +94,6 @@ export default function DataEntryForm() {
 
 
       </form>
-      {JSON.stringify(data)}
       <div>
         {submitted && <table className='dataTable'>
           <tr>
